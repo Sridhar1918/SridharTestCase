@@ -92,8 +92,8 @@ namespace Trailportalsignin
             webDriver.FindElement(By.XPath("//a[contains(text(), 'Students')]")).Click();
             Thread.Sleep(waitingTime);
 
-            webDriver.FindElement(By.XPath("//a[contains(text(), 'View')]")).Click();
-            Thread.Sleep(waitingTime);
+            //webDriver.FindElement(By.XPath("//a[contains(text(), 'View')]")).Click();
+            //Thread.Sleep(waitingTime);
 
 
 
